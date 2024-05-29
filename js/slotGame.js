@@ -56,7 +56,7 @@ class SlotGame extends Phaser.Scene{
              progressBar.fillStyle(0x006400, 1);
              progressBar.fillRect((slotGame.config.width / 2) -260, (slotGame.config.height / 2) + 300, 600 * value, 30);
              if(value == 1){
-                 document.body.style.backgroundImage='url(/png/Background_1.png)';
+                 document.body.style.backgroundImage='url(/TrackControl/png/Background_1.png)';
              }
          });
                      
